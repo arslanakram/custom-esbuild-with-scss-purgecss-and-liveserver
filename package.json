@@ -1,0 +1,35 @@
+{
+    "name": "custom-esbuild-with-scss-purgecss-and-liveserver",
+    "version": "1.0.0",
+    "description": "Custom ESBuild with SCSS, PurgeCSS & LiveServer",
+    "type": "module",
+    "scripts": {
+        "build": "node esbuild.js",
+        "watch": "node esbuild_watch.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/arslanakram/custom-esbuild-with-purgecss-and-liveserver.git"
+    },
+    "author": "Arslan Akram <arslan@pixelative.co>",
+    "license": "MIT",
+    "homepage": "https://github.com/arslanakram/custom-esbuild-with-purgecss-and-liveserver",
+    "browserslist": [
+        "last 2 versions",
+        "> 1%"
+    ],
+    "dependencies": {
+        "@popperjs/core": "^2.10.1",
+        "bootstrap": "^5.1.1",
+        "feather-icons": "^4.28.0"
+    },
+    "devDependencies": {
+        "@compodoc/live-server": "^1.2.2",
+        "autoprefixer": "^10.4.0",
+        "esbuild": "^0.14.1",
+        "esbuild-plugin-purgecss-2": "^1.0.0",
+        "esbuild-sass-plugin": "^1.7.3",
+        "glob-all": "^3.2.1",
+        "postcss": "^8.4.4"
+    }
+}
