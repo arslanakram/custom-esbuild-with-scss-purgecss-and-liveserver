@@ -1,6 +1,7 @@
 # Custom ESBuild with SCSS, PurgeCSS & LiveServer
 
-This setup also includes Bootstrap 5 and Feather Icons
+* Custom `esbuild` setup for ⚡ super ⚡ fast ⚡ builds.
+* This setup also includes Bootstrap 5 and Feather Icons
 
 ## Installing dependencies
 
@@ -8,13 +9,11 @@ This setup also includes Bootstrap 5 and Feather Icons
 
 ## Running Dev Server
 
-* Start server endpoint with `npm run watch`
-* Now you can visit [`localhost:7000`](http://localhost:7000) from your browser.
+* Start server endpoint with `npm start`
+* This will build the files and run live server at [`localhost:7000`](http://localhost:7000).
+* CSS/JS build files are outputted to `dist/styles/style.css` & `dist/scripts/script.js` with `npm run build`
 
 ## Building Files
-
-* Custom `esbuild` setup for ⚡ super ⚡ fast ⚡ builds.
-* CSS/JS build files are outputted to `dist/styles/style.css` & `dist/scripts/script.js` with `npm run build`
 
 ## About PurgeCSS
 
