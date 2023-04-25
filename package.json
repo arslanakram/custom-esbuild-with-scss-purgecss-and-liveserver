@@ -2,10 +2,9 @@
     "name": "custom-esbuild-with-scss-purgecss-and-liveserver",
     "version": "1.0.0",
     "description": "Custom ESBuild with SCSS, PurgeCSS & LiveServer",
-    "type": "module",
     "scripts": {
-        "build": "node esbuild.js",
-        "watch": "node esbuild_watch.js"
+        "build": "node esbuild.mjs",
+        "watch": "node esbuild_watch.mjs"
     },
     "repository": {
         "type": "git",
